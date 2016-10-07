@@ -9,5 +9,12 @@
             "email": "hi@shortlist.studio"
         }
     ],
-    "require": {}
+    "require": {
+        "imgix/imgix-php": "1.1.*"
+    },
+    "autoload": {
+      "psr-4": {
+        "TimberImgixPlugin\\": "."
+      }
+    }
 }

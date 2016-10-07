@@ -1,5 +1,6 @@
-
 <?php
+namespace TimberImgixPlugin;
+
 /**
 * @wordpress-plugin
 * Plugin Name: Timber Imgix Plugin
@@ -14,7 +15,7 @@ class TimberImgixPlugin
 {
     public function __construct()
     {
-        //
+		new \TimberImgixPlugin\Hooks\TimberTwig();
     }
 }
 new TimberImgixPlugin();
