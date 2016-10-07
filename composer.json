@@ -1,0 +1,13 @@
+{
+    "name": "shortlist-digital/timber-imgix-plugin",
+    "description": "Timber extension for Imgix functionality, such as resizing images",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shortlist Studio",
+            "email": "hi@shortlist.studio"
+        }
+    ],
+    "require": {}
+}
