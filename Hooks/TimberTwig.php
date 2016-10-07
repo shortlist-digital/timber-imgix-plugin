@@ -16,10 +16,7 @@ class TimberTwig {
 
     $twig->addFilter(new Twig_SimpleFilter('resize',
       array('TimberImgixPlugin\Services\Imgix', 'resize')));
-    // var_dump('98sd7f76d'); exit;
-
-	//  $twig->addFilter('resize', new Twig_Filter_Function(array($this, 'timber_image_src_resize')));
-
+	  
     return $twig;
   }
 }

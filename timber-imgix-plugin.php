@@ -16,6 +16,7 @@ class TimberImgixPlugin
     public function __construct()
     {
 		new \TimberImgixPlugin\Hooks\TimberTwig();
+		new \TimberImgixPlugin\Panels\Options();
     }
 }
 new TimberImgixPlugin();
