@@ -39,6 +39,28 @@ class Options {
 					'instructions' => 'The secret key for signing',
 					'placeholder' => 'e.g. y4as98d7fsd87f9s87f6',
 				),
+				array (
+					'key' => 'imgix_default_options_format',
+					'label' => 'Format',
+					'instructions' => 'Set the default format of each image to progressive jpeg',
+					'name' => 'imgix_default_options_format',
+					'type' => 'true_false',
+					'default_value' => 'true',
+					'wrapper' => array (
+						'width' => '50%',
+					)
+				),
+				array (
+					'key' => 'imgix_default_options_quality',
+					'label' => 'Quality',
+					'instructions' => 'Set the default quality of each image to 60%',
+					'name' => 'imgix_default_options_quality',
+					'type' => 'true_false',
+					'default_value' => 'true',
+					'wrapper' => array (
+						'width' => '50%',
+					)
+				)
 			),
 			'location' => array (
 				array (
